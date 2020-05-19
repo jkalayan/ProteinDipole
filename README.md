@@ -10,11 +10,7 @@ where the vectors between the position of a point and the protein centre of mass
 
 Please feel free to use and edit this tool as you wish and cite the paper below if this tool has at all been useful:
 
-[Model for Counterion Binding and Charge Reversal on Protein Surfaces](https://doi-org.manchester.idm.oclc.org/10.1021/acs.molpharmaceut.9b01047).
-
-<p align="center">
-<img src="https://github.com/jkalayan/sequenceBinder/blob/master/abstract_image5.png" width="400">
-</p>
+[Title](link).
 
 -->
 
@@ -50,9 +46,10 @@ A XXX_dipole.pdb file, where XXX is the input file name, containing coordinates 
   -DN: Normalised dipole vector of the protein.
   -DM: Dipole moment of the protein.
 
-Finally, the charges on atoms and dipole vectors can be viewed in visualisation tools such as [VMD](https://www.ks.uiuc.edu/Research/vmd/).
-
+Finally, the charges on atoms and dipole vectors can be viewed in visualisation tools such as [VMD](https://www.ks.uiuc.edu/Research/vmd/). An example of a VMD visualisation state (lysozyme_example.vmd) is available in in the example directory.
 
 <p align="center">
-<img src="file://lysozyme_dipole.png" width="400">
+<img src="file://example/lysozyme_dipole.png" width="400">
 </p>
+
+The transparent protein surface is coloured by surface charges from the .pqr file, while point charges on protein calculated using standard pKas are shown as the smaller, opaque spheres. Positive charges are blue, negative charges are red. The centre of mass on the protein is represented by the larger, magenta sphere and the dipole vectors calculated from a .pqr and standard pKas are represented by dashed lines ending in larger cyan and blue spheres respectively.
