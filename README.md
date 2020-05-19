@@ -47,10 +47,10 @@ A XXX_dipole.pdb file, where XXX is the input file name, containing coordinates 
  * DN: Normalised dipole vector of the protein.
  * DM: Dipole moment of the protein.
 
-Finally, the charges on atoms and dipole vectors can be viewed in visualisation tools such as [VMD](https://www.ks.uiuc.edu/Research/vmd/). An example of a VMD visualisation state (lysozyme_example.vmd) is available in in the example directory.
+Finally, the charges on atoms and dipole vectors can be viewed in visualisation tools such as [VMD](https://www.ks.uiuc.edu/Research/vmd/). An example of a VMD visualisation state (lysozyme_example.vmd) is available in the example directory.
 
 <p align="center">
 <img src="example/lysozyme_dipole.png" width="400">
 </p>
 
-The transparent protein surface is coloured by surface charges from the .pqr file, while point charges on protein calculated using standard pKas are shown as the smaller, opaque spheres. Positive charges are blue, negative charges are red. The centre of mass on the protein is represented by the larger, magenta sphere and the dipole vectors calculated from a .pqr and standard pKas are represented by dashed lines ending in larger cyan and blue spheres respectively.
+The transparent protein surface is coloured by surface charges from the .pqr file, while point charges on the protein calculated using standard pKas are shown as the smaller, opaque spheres. Positive charges are blue, negative charges are red. The centre of mass on the protein is represented by the larger, magenta sphere and the dipole vectors calculated from a .pqr and standard pKas are represented by dashed lines ending in larger cyan and blue spheres respectively.
