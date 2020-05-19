@@ -40,12 +40,12 @@ optional arguments:
 
 
 Output file:
-A XXX_dipole.pdb file, where XXX is the input file name, containing coordinates for charged atoms on side chains and dipoles calculated from the tool. The following teminology is used to describe the dipole values calculated:
-  -STD: Dipole calculation using charges from the standard pKa of amino acids.
-  -PQR: Dipole calculation using charges outputted in the .pqr file.
-  -DV: Dipole vector of the protein.
-  -DN: Normalised dipole vector of the protein.
-  -DM: Dipole moment of the protein.
+A XXX_dipole.pdb file, where XXX is the input file name, containing coordinates for charged atoms on side chains and dipoles calculated from the tool. The following teminology is used to describe the dipole values calculated:<br/>
+ * STD: Dipole calculation using charges from the standard pKa of amino acids.
+ * PQR: Dipole calculation using charges outputted in the .pqr file.
+ * DV: Dipole vector of the protein.
+ * DN: Normalised dipole vector of the protein.
+ * DM: Dipole moment of the protein.
 
 Finally, the charges on atoms and dipole vectors can be viewed in visualisation tools such as [VMD](https://www.ks.uiuc.edu/Research/vmd/). An example of a VMD visualisation state (lysozyme_example.vmd) is available in in the example directory.
 
