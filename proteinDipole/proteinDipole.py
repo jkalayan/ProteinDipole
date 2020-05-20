@@ -328,11 +328,11 @@ def readPDB(fileName, *args, **kwargs):
 
         for line in data:
             if line[0:6] == 'ATOM  ':
-                atomid = int(re.sub('[^-0-9.]', '', line[6:11]))
+                atomid = int(float(re.sub('[^-0-9.]', '', line[6:11])))
                 atom_name = line[12:16].replace(' ','')
                 resname = line[17:20].replace(' ','')
                 chain = line[21:22].replace(' ','')
-                resid = int(line[22:26].replace(' ',''))
+                resid = int(float(line[22:26].replace(' ','')))
                 x = float(re.sub('[^-0-9.]', '', line[30:38]))
                 y = float(re.sub('[^-0-9.]', '', line[38:46]))
                 z = float(re.sub('[^-0-9.]', '', line[46:54]))
