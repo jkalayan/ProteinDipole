@@ -3,7 +3,7 @@ Tool for calculating protein dipole moments at a given pH. Input file can be a .
 
 Dipole vectors are calculated using the following equation:<br/> 
 
-![equation](https://latex.codecogs.com/svg.latex?\overrightarrow{D}=\sum_{i=1}^{N}q_i(\textbf{r}_i-\textbf{r}_{\text{CoM}}))
+$$\overrightarrow{D}=\sum_{i=1}^N q_i ( \textbf{r}_i - \textbf{r} _{\text{CoM}} )$$
 
 where the vectors between the position of a point and the protein centre of mass, multiplied by the charge on the point, are all summed. The dipole moment is then just the magnitude of the dipole vector, given as the distance between the protein centre of mass and the dipole vector.  
 
